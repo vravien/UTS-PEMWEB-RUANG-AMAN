@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panduan Praktis Ruang Aman — Langkah nyata apa yang harus dilakukan saat mengalami bullying, menyaksikan perundungan, atau ingin memperbaiki diri. Dilengkapi checklist aksi harian.">
+  <title>Panduan Aksi — Ruang Aman</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. NAVBAR
+       ======================================================================== -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" aria-label="Beranda Ruang Aman">
+        <div class="brand-icon-wrapper">
+          <img src="images/logo1.jpg" alt="ini logo">
+        </div>
+        <span class="brand-name">Teman <span>Ceritamu</span></span>
+      </a>
+
+      <!-- Checkbox Toggle Hack untuk Mobile Menu (Pure CSS) -->
+      <input type="checkbox" id="navToggleCheckbox" class="nav-toggle-checkbox">
+      <label for="navToggleCheckbox" class="nav-toggle" aria-label="Buka navigasi menu">
+        <div class="hamburger-line"></div>
+      </label>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Beranda</a>
+        <a href="edukasi.html" class="nav-link">Edukasi</a>
+        <a href="panduan.html" class="nav-link active">Panduan</a>
+        <a href="bantuan.html" class="nav-link">Bantuan</a>
+        <a href="tentang.html" class="nav-link">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       2. PAGE HERO BANNER
+       ======================================================================== -->
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge badge-mint">Panduan Aksi Nyata</span>
+        <h1 class="page-hero-title">Apa yang Harus Kita Lakukan?</h1>
+        <p class="page-hero-subtitle">
+          Ketika perundungan terjadi di depan mata atau menimpamu, kepanikan bisa diatasi dengan langkah-langkah terarah. Pilih situasi di bawah ini untuk melihat panduan yang relevan.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SISTEM TABS: 3 SITUASI BERBEDA (PURE CSS RADIO TABS)
+         ======================================================================== -->
+    <section class="section bg-white">
+      <div class="container container-narrow">
+        <div class="css-tabs-wrapper reveal">
+          <!-- Radio Inputs untuk Navigasi Tab (CSS Hack) -->
+          <input type="radio" name="guideTab" id="tab1" class="css-tab-radio" checked>
+          <input type="radio" name="guideTab" id="tab2" class="css-tab-radio">
+          <input type="radio" name="guideTab" id="tab3" class="css-tab-radio">
+
+          <!-- Navigasi Tombol Tab -->
+          <div class="tab-nav" role="tablist">
+            <label for="tab1" class="tab-btn tab-btn-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              Jika Mengalami Bullying
+            </label>
+            <label for="tab2" class="tab-btn tab-btn-2">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              Jika Melihat Bullying
+            </label>
+            <label for="tab3" class="tab-btn tab-btn-3">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+              Jika Pernah Melakukan
+            </label>
+          </div>
+
+          <!-- TAB 1: JIKA MENGALAMI BULLYING -->
+          <div class="tab-content tab-content-1">
+            <div class="steps-list">
+              <!-- Langkah 1 -->
+              <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h3 class="step-title">Utamakan Keselamatan Diri & Cari Tempat Aman</h3>
+                  <p class="step-desc">
+                    Jika kamu berada dalam ancaman kekerasan fisik atau kerumunan yang mengintimidasi, jangan ragu untuk segera menjauh ke tempat ramai, ruang guru, perpustakaan, atau pos keamanan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 2 -->
+              <div class="step-card">
+                <div class="step-content" style="display: flex; gap: 20px; align-items: flex-start;">
+                  <div class="step-number" style="background: linear-gradient(135deg, var(--mint-500) 0%, var(--mint-600) 100%);">2</div>
+                  <div>
+                    <h3 class="step-title">Ceritakan Kejadian kepada Orang Dewasa Tepercaya</h3>
+                    <p class="step-desc">
+                      Menyimpan beban ini sendirian hanya akan memperburuk situasi. Beranikan diri untuk bercerita kepada orang tua, wali, atau kakak di rumah yang selalu mendukungmu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Langkah 3 -->
+              <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h3 class="step-title">Hubungi Wali Kelas, Guru BK, atau Pihak Sekolah</h3>
+                  <p class="step-desc">
+                    Sekolah memiliki kewajiban menjaga keselamatan setiap siswa. Laporkan kepada guru Bimbingan Konseling (BK) atau wali kelas agar ada tindakan penanganan yang adil dan terlindungi.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 4 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--amber-500) 0%, var(--amber-700) 100%);">4</div>
+                <div class="step-content">
+                  <h3 class="step-title">Simpan Bukti yang Relevan (Apabila Aman)</h3>
+                  <p class="step-desc">
+                    Catat tanggal, waktu, lokasi kejadian, serta siapa saja yang terlibat atau menyaksikan. Jika ada kerusakan barang, simpan bukti tersebut sebagai dokumentasi pendukung.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 5 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--primary-500) 0%, var(--primary-700) 100%);">5</div>
+                <div class="step-content">
+                  <h3 class="step-title">Tindakan Khusus untuk Cyberbullying</h3>
+                  <p class="step-desc">
+                    Ambil tangkapan layar (screenshot) pesan atau komentar hinaan sebelum dihapus. Manfaatkan fitur blokir (block) dan laporkan (report) akun pelaku pada aplikasi media sosial terkait.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 6 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--lavender-600) 0%, var(--lavender-400) 100%);">6</div>
+                <div class="step-content">
+                  <h3 class="step-title">Mintalah Pendampingan Sahabat atau Keluarga</h3>
+                  <p class="step-desc">
+                    Jika kamu merasa cemas atau takut untuk melapor sendirian, ajak teman akrab atau orang tuamu untuk menemani saat bertemu pihak sekolah atau konselor.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pesan Penguat Emosional -->
+            <div class="support-note mint" style="margin-top: 32px;">
+              <div style="flex-shrink: 0; color: var(--mint-600);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <div class="support-note-text">
+                <strong style="font-size: 1rem; display: block; margin-bottom: 4px;">Pesan untuk Kamu:</strong>
+                “Kamu tidak bersalah karena mengalami bullying. Tidak ada satu pun alasan yang membenarkan perlakuan buruk tersebut kepadamu. Kamu berhak mendapatkan rasa aman, didengar, dan dilindungi.”
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: JIKA MELIHAT BULLYING (BYSTANDER) -->
+          <div class="tab-content tab-content-2">
+            <div class="steps-list">
+              <!-- Langkah 1 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--rose-500) 0%, var(--rose-600) 100%);">1</div>
+                <div class="step-content">
+                  <h3 class="step-title">Jangan Ikut Menertawakan atau Menyoraki</h3>
+                  <p class="step-desc">
+                    Pelaku bullying sering mencari perhatian dan validasi dari penonton. Dengan tidak tertawa, tidak berkumpul menonton, dan tidak menyebarkan bahan ejekan, kamu memutus sumber panggung mereka.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 2 -->
+              <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h3 class="step-title">Utamakan Keselamatan Diri & Korban</h3>
+                  <p class="step-desc">
+                    Jangan mencoba konfrontasi fisik langsung jika situasi berbahaya. Alihkan perhatian secara cerdas, misalnya dengan memanggil korban: <em>"Ayo ke kantin bareng, kita sudah ditunggu guru."</em>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 3 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--mint-500) 0%, var(--mint-600) 100%);">3</div>
+                <div class="step-content">
+                  <h3 class="step-title">Dukung Korban Tanpa Menghakimi atau Memaksa</h3>
+                  <p class="step-desc">
+                    Temui teman yang menjadi sasaran setelah kejadian. Duduklah di sampingnya dan katakan: <em>"Aku lihat apa yang terjadi tadi, itu tidak benar dan kamu tidak pantas diperlakukan begitu."</em>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 4 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-700) 100%);">4</div>
+                <div class="step-content">
+                  <h3 class="step-title">Laporkan Secara Aman kepada Orang Dewasa Tepercaya</h3>
+                  <p class="step-desc">
+                    Berceritalah kepada guru BK, wali kelas, atau kepala sekolah. Kamu bisa meminta agar identitasmu sebagai pelapor dirahasiakan demi kenyamanan bersama.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 5 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--amber-500) 0%, var(--amber-700) 100%);">5</div>
+                <div class="step-content">
+                  <h3 class="step-title">Jangan Menyebarkan Rekaman Video atau Foto</h3>
+                  <p class="step-desc">
+                    Menyebarkan video atau foto aksi bullying di media sosial atau grup obrolan justru memperluas rasa malu korban (reviktimisasi). Serahkan bukti hanya kepada pihak berwenang di sekolah.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="support-note" style="margin-top: 32px;">
+              <div style="flex-shrink: 0; color: var(--primary-600);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div class="support-note-text">
+                <strong>Kekuatan Saksi:</strong> Keberanian satu orang untuk tidak membiarkan ketidakadilan terjadi sering kali menjadi dorongan bagi teman-teman lain untuk ikut berdiri membela kebenaran.
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: JIKA PERNAH MELAKUKAN BULLYING -->
+          <div class="tab-content tab-content-3">
+            <div class="steps-list">
+              <!-- Langkah 1 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--lavender-600) 0%, var(--lavender-400) 100%);">1</div>
+                <div class="step-content">
+                  <h3 class="step-title">Akui Bahwa Tindakan Tersebut Menyakiti Orang Lain</h3>
+                  <p class="step-desc">
+                    Langkah paling berani dimulai dari kejujuran pada diri sendiri. Meskipun awalnya kamu hanya menganggapnya lelucon atau ikut-ikutan teman, sadarilah bahwa perbuatanmu menimbulkan luka bagi orang lain.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 2 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--rose-500) 0%, var(--rose-600) 100%);">2</div>
+                <div class="step-content">
+                  <h3 class="step-title">Segera Hentikan Seluruh Perilaku Merugikan Tersebut</h3>
+                  <p class="step-desc">
+                    Berhenti sekarang juga. Jangan lagi melontarkan kata-kata ejekan, jangan menyebarkan rumor, dan tolak ajakan teman kelompok untuk melanjutkan perundungan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 3 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--amber-500) 0%, var(--amber-700) 100%);">3</div>
+                <div class="step-content">
+                  <h3 class="step-title">Dengarkan Dampaknya Tanpa Menyalahkan Korban</h3>
+                  <p class="step-desc">
+                    Jika ada kesempatan mediasi, dengarkan bagaimana perasaan teman yang kamu sakiti. Hindari alasan defensif seperti <em>"kamu sih terlalu sensitif"</em>. Tanggung jawab adalah tanda kedewasaan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 4 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--mint-500) 0%, var(--mint-600) 100%);">4</div>
+                <div class="step-content">
+                  <h3 class="step-title">Perbaiki Perilaku & Hormati Batasan Orang Lain</h3>
+                  <p class="step-desc">
+                    Minta maaf secara tulus tanpa memaksa korban untuk langsung memaafkan atau kembali akrab. Hargai jika mereka butuh ruang dan waktu untuk memulihkan kepercayaan.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Langkah 5 -->
+              <div class="step-card">
+                <div class="step-number" style="background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-700) 100%);">5</div>
+                <div class="step-content">
+                  <h3 class="step-title">Mintalah Pendampingan dari Guru BK atau Konselor</h3>
+                  <p class="step-desc">
+                    Sering kali keinginan merundung berakar dari masalah pribadi, tekanan emosi, atau rasa tidak aman dalam diri. Bicarakan ini dengan konselor sekolah untuk membantumu mengelola emosi secara positif.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="support-note mint" style="margin-top: 32px;">
+              <div style="flex-shrink: 0; color: var(--mint-600);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div class="support-note-text">
+                <strong>Pendekatan Edukatif:</strong> Mengakui kesalahan dan berkomitmen untuk berubah membutuhkan jiwa kesatria. Masa lalu tidak mendefinisikan siapa dirimu jika kamu memilih untuk menjadi pribadi yang lebih berempati hari ini.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. CTA KE HALAMAN BANTUAN
+         ======================================================================== -->
+    <section class="section-sm bg-white">
+      <div class="container container-narrow">
+        <div class="cta-banner reveal">
+          <h2 class="cta-banner-title">Butuh Teman Bercerita atau Dukungan?</h2>
+          <p class="cta-banner-desc">
+            Kamu tidak harus menghadapi situasi sulit sendirian. Temukan pihak yang dapat membantu dan pelajari contoh kalimat sederhana untuk memulai bercerita.
+          </p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="bantuan.html" class="btn btn-white btn-lg">
+              Buka Halaman Bantuan
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       6. FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-title">
+            <div style="width: 32px; height: 32px;">
+            <img src="images/logo1.jpg" alt="ini logo">
+            </div>
+            <span>Teman Ceritamu</span>
+          </div>
+          <p class="footer-brand-desc">
+            Website edukasi anti-bullying yang berfokus pada pencegahan perundungan, pemahaman dampak kesehatan mental, dan panduan mencari bantuan yang aman bagi pelajar.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Halaman Utama</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Beranda</a></li>
+            <li><a href="edukasi.html" class="footer-link">Edukasi Bullying</a></li>
+            <li><a href="panduan.html" class="footer-link">Panduan Menghadapi</a></li>
+            <li><a href="bantuan.html" class="footer-link">Pusat Bantuan</a></li>
+            <li><a href="tentang.html" class="footer-link">Tentang Tim Kami</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-column-title">Sumber Informasi</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="https://www.alodokter.com/bullying" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Alodokter — Bullying
+              </a>
+            </li>
+            <li>
+              <a href="https://keslan.kemkes.go.id/view_artikel/3704/dampak-perilaku-bullying-di-sekolah-terhadap-kesehatan-mental-anak" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Kemenkes RI — Dampak Bullying
+              </a>
+            </li>
+            <li>
+              <a href="https://www.halodoc.com/kesehatan/bullying" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Halodoc — Bullying
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        Teman Ceritamu merupakan proyek edukasi dan bukan pengganti layanan bantuan profesional. Jika Anda atau rekan Anda mengalami bahaya darurat, segera hubungi pihak sekolah, orang tua, atau layanan darurat resmi.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Teman Ceritamu.</div>
+        <div>Kelompok Josjis</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

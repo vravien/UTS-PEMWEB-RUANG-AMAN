@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruang Aman — Website edukasi anti-bullying untuk pelajar. Kenali bentuk perundungan, pahami dampaknya, dan ketahui langkah aman untuk saling mendukung.">
+  <title>Ruang Aman — Setiap Orang Berhak Merasa Aman</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. NAVBAR
+       ======================================================================== -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <!-- Logo Brand -->
+      <a href="index.html" class="brand-logo" aria-label="Beranda Ruang Aman">
+        <div class="brand-icon-wrapper">
+          <img src="images/logo1.jpg" alt="ini logo">
+        </div>
+        <span class="brand-name">Teman <span>Ceritamu</span></span>
+      </a>
+
+      <!-- Checkbox Toggle Hack untuk Mobile Menu (Pure CSS) -->
+      <input type="checkbox" id="navToggleCheckbox" class="nav-toggle-checkbox">
+      <label for="navToggleCheckbox" class="nav-toggle" aria-label="Buka navigasi menu">
+        <div class="hamburger-line"></div>
+      </label>
+
+      <!-- Menu Navigasi Desktop & Mobile -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link active">Beranda</a>
+        <a href="edukasi.html" class="nav-link">Edukasi</a>
+        <a href="panduan.html" class="nav-link">Panduan</a>
+        <a href="bantuan.html" class="nav-link">Bantuan</a>
+        <a href="tentang.html" class="nav-link">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       2. HERO SECTION
+       ======================================================================== -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Sisi Teks / Konten -->
+          <div class="hero-content reveal">
+            <span class="badge badge-primary">Website Edukasi Anti-Bullying</span>
+            <h1 class="hero-title">
+              Setiap Orang Berhak <span class="text-gradient">Merasa Aman.</span>
+            </h1>
+            <p class="hero-subtitle">
+              Bullying bukan sekadar bercanda. Kenali, pahami, dan hentikan perundungan bersama <strong>Teman Ceritamu</strong> untuk menciptakan lingkungan sekolah yang ramah, sehat, dan inklusif.
+            </p>
+            <div class="btn-group">
+              <a href="edukasi.html" class="btn btn-primary btn-lg">
+                Pelajari Bullying
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="bantuan.html" class="btn btn-secondary btn-lg">
+                Temukan Bantuan
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Sisi Ilustrasi / Foto Pelajar -->
+          <div class="hero-visual reveal delay-100">
+            <div class="hero-image-wrapper">
+              <img src="images/hero.jpg" alt="gambar aja" class="hero-image">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. PENGENALAN RUANG AMAN
+         ======================================================================== -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="badge badge-mint">Inisiatif Edukasi</span>
+          <h2 class="section-title">Mengenal Inisiatif Ruang Aman</h2>
+          <p class="section-subtitle">
+            Teman Ceritamu adalah website edukasi yang mengajak pelajar mengenali bullying, memahami dampaknya, dan mengetahui cara mencari bantuan.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Fitur 1 -->
+          <div class="feature-box reveal">
+            <div class="feature-icon icon-box-blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title" style="font-size: 1.125rem;">Kenali Perbedaannya</h3>
+              <p class="card-desc">Membedakan konflik biasa dengan perundungan yang memiliki ketimpangan kekuatan dan terjadi berulang.</p>
+            </div>
+          </div>
+
+          <!-- Fitur 2 -->
+          <div class="feature-box reveal delay-100">
+            <div class="feature-icon icon-box-mint">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title" style="font-size: 1.125rem;">Panduan Tindakan Nyata</h3>
+              <p class="card-desc">Langkah praktis yang aman untuk korban, saksi (bystander), serta ajakan introspeksi diri yang membangun.</p>
+            </div>
+          </div>
+
+          <!-- Fitur 3 -->
+          <div class="feature-box reveal delay-200">
+            <div class="feature-icon icon-box-lavender">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title" style="font-size: 1.125rem;">Kanal Pendampingan</h3>
+              <p class="card-desc">Mengetahui pihak tepercaya untuk diajak bicara dan template kalimat sederhana untuk memulai bercerita.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. KENALI BENTUK BULLYING
+         ======================================================================== -->
+    <section class="section bg-light-blue">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="badge badge-primary">Klasifikasi Bentuk</span>
+          <h2 class="section-title">Kenali 4 Bentuk Bullying</h2>
+          <p class="section-subtitle">
+            Bullying dapat terjadi dalam berbagai wujud, baik secara langsung di sekolah maupun melalui perantara internet. Pahami perbedaannya berikut:
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <!-- Kartu 1: Fisik -->
+          <div class="card-media reveal">
+            <img src="images/fisik.jpg" alt="Ilustrasi Bullying Fisik" class="card-media-img">
+            <div class="card-media-body">
+              <div class="icon-box icon-box-rose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"></path>
+                  <path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"></path>
+                  <path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"></path>
+                  <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Bullying Fisik</h3>
+              <p class="card-desc">Tindakan menyakiti secara fisik seperti memukul, mendorong, menendang, memalak, atau merusak barang milik orang lain.</p>
+              <a href="edukasi.html" class="card-link">
+                Pelajari Detail
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kartu 2: Verbal -->
+          <div class="card-media reveal delay-100">
+            <img src="images/verbal.jpeg" alt="Ilustrasi Bullying Verbal" class="card-media-img">
+            <div class="card-media-body">
+              <div class="icon-box icon-box-amber">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  <line x1="9" y1="10" x2="15" y2="10"></line>
+                </svg>
+              </div>
+              <h3 class="card-title">Bullying Verbal</h3>
+              <p class="card-desc">Ucapan merendahkan seperti mengejek bentuk tubuh, menghina asal-usul, memberi julukan buruk, atau mengancam.</p>
+              <a href="edukasi.html" class="card-link">
+                Pelajari Detail
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kartu 3: Sosial -->
+          <div class="card-media reveal delay-200">
+            <img src="images/sosial.jpeg" alt="Ilustrasi Bullying Sosial" class="card-media-img">
+            <div class="card-media-body">
+              <div class="icon-box icon-box-lavender">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="8.5" cy="7" r="4"></circle>
+                  <line x1="18" y1="8" x2="23" y2="13"></line>
+                  <line x1="23" y1="8" x2="18" y2="13"></line>
+                </svg>
+              </div>
+              <h3 class="card-title">Bullying Sosial</h3>
+              <p class="card-desc">Perilaku mengucilkan teman dari pergaulan secara sengaja, menyebarkan gosip atau rumor jahat untuk mempermalukannya.</p>
+              <a href="edukasi.html" class="card-link">
+                Pelajari Detail
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kartu 4: Cyberbullying -->
+          <div class="card-media reveal delay-300">
+            <img src="images/cyber.jpeg" alt="Ilustrasi Cyberbullying" class="card-media-img">
+            <div class="card-media-body">
+              <div class="icon-box icon-box-blue">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="card-title">Cyberbullying</h3>
+              <p class="card-desc">Teror dan hinaan melalui media digital, kolom komentar, atau menyebarkan foto memalukan tanpa izin.</p>
+              <a href="edukasi.html" class="card-link">
+                Pelajari Detail
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. MENGAPA KITA HARUS PEDULI?
+         ======================================================================== -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="badge badge-amber">Dampak Nyata</span>
+          <h2 class="section-title">Mengapa Kita Harus Peduli?</h2>
+          <p class="section-subtitle">
+            Bullying bukan urusan sepele yang hilang dengan sendirinya. Dampaknya dapat memengaruhi perkembangan kepribadian dan masa depan seorang remaja.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <div class="card card-hover reveal">
+            <div class="icon-box icon-box-mint">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                <path d="M12 12 2.1 7.1"></path>
+                <path d="M12 12v10"></path>
+              </svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.125rem;">Rasa Percaya Diri</h3>
+            <p class="card-desc">Korban sering merasa tidak berharga, menyalahkan diri sendiri, dan kehilangan keyakinan akan potensi diri.</p>
+          </div>
+
+          <div class="card card-hover reveal delay-100">
+            <div class="icon-box icon-box-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                <line x1="12" y1="2" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.125rem;">Kesehatan Mental</h3>
+            <p class="card-desc">Dapat memicu kecemasan berkepanjangan (anxiety), stres berat, gangguan tidur, hingga depresi remaja.</p>
+          </div>
+
+          <div class="card card-hover reveal delay-200">
+            <div class="icon-box icon-box-lavender">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.125rem;">Hubungan Sosial</h3>
+            <p class="card-desc">Membuat seseorang menarik diri dari pergaulan, menjadi pendiam, dan kesulitan membangun rasa percaya kepada orang lain.</p>
+          </div>
+
+          <div class="card card-hover reveal delay-300">
+            <div class="icon-box icon-box-amber">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.125rem;">Kegiatan Belajar</h3>
+            <p class="card-desc">Hilangnya motivasi datang ke sekolah, penurunan konsentrasi saat belajar di kelas, dan merosotnya prestasi akademik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. AJAKAN POSITIF
+         ======================================================================== -->
+    <section class="section bg-light-mint">
+      <div class="container container-narrow">
+        <div class="quote-banner reveal">
+          <div class="quote-icon">“</div>
+          <blockquote class="quote-text">
+            Jangan menjadi alasan seseorang takut datang ke sekolah. <span class="quote-highlight">Jadilah alasan mereka merasa diterima.</span>
+          </blockquote>
+          <a href="panduan.html" class="btn btn-mint btn-lg">
+            Mulai dari Hal Sederhana
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. PENUTUP HALAMAN (BANNER CTA)
+         ======================================================================== -->
+    <section class="section-sm bg-white">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2 class="cta-banner-title">Perubahan dimulai ketika kita memilih untuk peduli.</h2>
+          <p class="cta-banner-desc">
+            Satu tindakan empati, satu kata pembelaan, atau sekadar menyapa teman yang sendirian dapat menjadi penentu besar bagi hidup seseorang.
+          </p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="panduan.html" class="btn btn-white btn-lg">
+              Pelajari Panduan Tindakan
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Kolom Brand -->
+        <div>
+          <div class="footer-brand-title">
+            <div style="width: 32px; height: 32px;">
+          <img src="images/logo1.jpg" alt="ini logo">
+            </div>
+            <span>Teman Ceritamu</span>
+          </div>
+          <p class="footer-brand-desc">
+            Website edukasi anti-bullying yang berfokus pada pencegahan perundungan, pemahaman dampak kesehatan mental, dan panduan mencari bantuan yang aman bagi pelajar.
+          </p>
+        </div>
+
+        <!-- Kolom Navigasi -->
+        <div>
+          <h4 class="footer-column-title">Halaman Utama</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Beranda</a></li>
+            <li><a href="edukasi.html" class="footer-link">Edukasi Bullying</a></li>
+            <li><a href="panduan.html" class="footer-link">Panduan Menghadapi</a></li>
+            <li><a href="bantuan.html" class="footer-link">Pusat Bantuan</a></li>
+            <li><a href="tentang.html" class="footer-link">Tentang Tim Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom Sumber Referensi -->
+        <div>
+          <h4 class="footer-column-title">Sumber Informasi</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="https://www.alodokter.com/bullying" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Alodokter — Bullying
+              </a>
+            </li>
+            <li>
+              <a href="https://keslan.kemkes.go.id/view_artikel/3704/dampak-perilaku-bullying-di-sekolah-terhadap-kesehatan-mental-anak" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Kemenkes RI — Dampak Bullying
+              </a>
+            </li>
+            <li>
+              <a href="https://www.halodoc.com/kesehatan/bullying" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Halodoc — Bullying
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Catatan Edukasi Disclaimer -->
+      <div class="footer-disclaimer">
+        Teman Ceritamu merupakan proyek edukasi dan bukan pengganti layanan bantuan profesional. Jika Anda atau rekan Anda mengalami bahaya darurat, segera hubungi pihak sekolah, orang tua, atau layanan darurat resmi.
+      </div>
+
+      <!-- Baris Bawah Copyright -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Teman Ceritamu.</div>
+        <div>Kelompok Josjis</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
